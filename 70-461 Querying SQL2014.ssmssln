@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 12.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01-Creating_Tables", "01-Creating_Tables\01-Creating_Tables.ssmssqlproj", "{F9FDE1C1-0144-440C-9039-28DC460211D9}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03-Views_TSQL", "03-Views_TSQL\03-Views_TSQL.ssmssqlproj", "{E18E7FB0-9357-447E-A099-0946C63B0502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9FDE1C1-0144-440C-9039-28DC460211D9}.Default|Default.ActiveCfg = Default
+		{6C59F6AB-6FE3-4ADA-B5C3-CE5A89F35456}.Default|Default.ActiveCfg = Default
+		{E18E7FB0-9357-447E-A099-0946C63B0502}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
