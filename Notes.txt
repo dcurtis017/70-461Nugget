@@ -1,0 +1,46 @@
+---->Creating and Alterint Tables with TSQL
+
+---->Creating a Query
+*From Solution Explorer Right Click on Queries and Select New Query
+
+---->General
+*Put USE followed by the name of the database you want to use at the top of every script to make sure you're not using the wrong db
+*There is no semicolon after Go
+*Go is a batch terminator, saying run everything before it
+*Shift+F1 will pull up help
+*UniqueIdentifier is a 16 bit guid (globally unique identifier)
+*Control+R will hide/show the results pane
+*Edit->Intellisense->Refresh Local Cache will refresh  meta data in sql server management studio
+*dbo is the default schema in SQL Server. You can create your own schemas to allow you to better manage your object namespace.
+*The brackets are required if you use keywords or special chars in the column names or identifiers. You could name a column [First Name] (with a space)--but then you'd need to use brackets every time you referred to that column.
+The newer tools add them everywhere just in case or for consistency.
+
+
+
+---->Data Types
+*Decimal takes a precision and scale. Precision is the total number of digits stored and scale is the number of digits to the right of the decimal point
+*Money is a valid datatype but not standard sql so it's better to use Decimal
+
+---->Renaming Tables
+*The sp_rename 'oldname, 'new name' stored procedure must be used
+*If you're renaming a column then the third param is 'Column'
+
+---->Removing Columns and Tables
+*Use the alter table followed by drop column and the column name
+*To drop a table use drop table and then the table name
+
+---->Views
+*Views are pretty much virtual tables
+*Views can be used as a security mechanism as well as a way to ensure backwards compatability
+*create view must be the only statement in a batch
+*views are renamed using sp_Rename and altered using alter view <view name>
+
+---->Joins
+*inner join is the default join (data must be in both tables)
+*INNER JOIN: Returns all rows when there is at least one match in BOTH tables
+*LEFT JOIN: Return all rows from the left table, and the matched rows from the right table
+*RIGHT JOIN: Return all rows from the right table, and the matched rows from the left table
+*FULL JOIN: Return all rows when there is a match in ONE of the tables
+The SQL FULL JOIN combines the results of both left and right outer joins. Full Join is the same as UNION
+*An outer join of A and B gives the results of A union B, i.e. the outer parts of a Venn diagram union.
+*In an inner join both tables must link so there is no difference between the left:customer table and the right:rental table. You use outer joins when you need all of the results from one of the join tables, whether there is a matching row in the other table or not
