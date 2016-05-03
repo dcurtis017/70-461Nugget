@@ -44,8 +44,8 @@
           <FullPath>Nested-Triggers.sql</FullPath>
         </FileNode>
         <FileNode Name="notes.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ELYSIUM\SQL2012XP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ELYSIUM\SQL2012XP</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>notes.sql</FullPath>
         </FileNode>

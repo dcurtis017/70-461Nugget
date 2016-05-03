@@ -1,18 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # SQL Server Management Studio Solution File, Format Version 12.00
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01-Creating_Tables", "01-Creating_Tables\01-Creating_Tables.ssmssqlproj", "{F9FDE1C1-0144-440C-9039-28DC460211D9}"
-EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03-Views_TSQL", "03-Views_TSQL\03-Views_TSQL.ssmssqlproj", "{E18E7FB0-9357-447E-A099-0946C63B0502}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "05-Constraints_TSQL", "05-Constraints_TSQL\05-Constraints_TSQL.ssmssqlproj", "{FC2836D7-F356-454C-B53C-8A9FC8E25C5E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02-Creating_Tables", "02-Creating_Tables\02-Creating_Tables.ssmssqlproj", "{97652FF9-FC3F-4130-82B9-10677554489C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "06-Triggers_TSQL", "06-Triggers_TSQL\06-Triggers_TSQL.ssmssqlproj", "{6D8B4064-3DE5-4086-BDDD-9879BCE182A6}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07-SELECT", "07-SELECT\07-SELECT.ssmssqlproj", "{A82AC013-55DF-412A-8099-AE3320B29881}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08-Subqueries", "08-Subqueries\08-Subqueries.ssmssqlproj", "{662EA17E-384D-4D5A-8AA9-4BA9566E0FBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F9FDE1C1-0144-440C-9039-28DC460211D9}.Default|Default.ActiveCfg = Default
-		{6C59F6AB-6FE3-4ADA-B5C3-CE5A89F35456}.Default|Default.ActiveCfg = Default
 		{E18E7FB0-9357-447E-A099-0946C63B0502}.Default|Default.ActiveCfg = Default
+		{FC2836D7-F356-454C-B53C-8A9FC8E25C5E}.Default|Default.ActiveCfg = Default
+		{97652FF9-FC3F-4130-82B9-10677554489C}.Default|Default.ActiveCfg = Default
+		{6D8B4064-3DE5-4086-BDDD-9879BCE182A6}.Default|Default.ActiveCfg = Default
+		{A82AC013-55DF-412A-8099-AE3320B29881}.Default|Default.ActiveCfg = Default
+		{01A9C39A-A9C3-4448-9F68-8FCDF6E93823}.Default|Default.ActiveCfg = Default
+		{662EA17E-384D-4D5A-8AA9-4BA9566E0FBF}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

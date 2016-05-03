@@ -44,3 +44,25 @@ The newer tools add them everywhere just in case or for consistency.
 The SQL FULL JOIN combines the results of both left and right outer joins. Full Join is the same as UNION
 *An outer join of A and B gives the results of A union B, i.e. the outer parts of a Venn diagram union.
 *In an inner join both tables must link so there is no difference between the left:customer table and the right:rental table. You use outer joins when you need all of the results from one of the join tables, whether there is a matching row in the other table or not
+
+---->Additional
+*always try to focus joins and group bys on numeric values for performance benefits
+*select a keyword and press shift+f1 to bring up context sensitive help
+
+----> Semi Colons
+The Semicolon
+
+The semicolon character is a statement terminator. It is a part of the ANSI SQL-92 standard, but was never used within Transact-SQL. Indeed, it was possible to code T-SQL for years without ever encountering a semicolon.
+
+Usage
+
+There are two situations in which you must use the semicolon. The first situation is where you use a Common Table Expression (CTE), and the CTE is not the first statement in the batch. The second is where you issue a Service Broker statement and the Service Broker statement is not the first statement in the batch.
+
+CTEs demand that the WITH is the first statement so you need a semicolon before the WITH
+
+----> Go
+signifies the end of a SQL batch to the SQL utilities
+
+CREATE DEFAULT, CREATE FUNCTION, CREATE PROCEDURE, CREATE RULE, CREATE TRIGGER, and CREATE VIEW statements cannot be combined with other statements in a batch. The CREATE statement must begin the batch. All other statements that follow in that batch will be interpreted as part of the definition of the first CREATE statement.
+
+Any declarations of variables, table variable...do not go across GO statements
