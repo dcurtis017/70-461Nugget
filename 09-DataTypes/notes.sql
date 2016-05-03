@@ -7,7 +7,7 @@ text - dont use...instead use varchar(max)
 800 char max for varchar, char
 varchar can use MAX which will allow over 1 billion characters (2 gigs)
 
--->Unicode Character Data
+-->Unicode Character Data -- usually when you'll be using other languages
 nchar
 nvarchar
 ntext - dont use
@@ -41,11 +41,11 @@ geography - takes into account curvature
 -->date and time
 smalldatetime
 datetime
-datetime2
+datetime2 - higher precision than datetime
 date 3 bytes
 time 3-5 bytes
 datetimeoffset pretty much datetime2 with a timezone offset
-timestamp
+timestamp sql server creates this
 
 -->special data
 sql_variant can store a mismash of many different types except text, timestamp and ntext...have to check and do conversions on data when pulled out
@@ -58,6 +58,7 @@ hierarchyid allows you to store a pointer to where a node sits in a heirarchy (t
 128bit int
 simplified merging data from multiple sources
 can slow down queries when used as primary key
+you can use an int for the primary key but have a guid on the table that is used in for example urls to provide better security
 
 -->Identity(int) 
 32 bit

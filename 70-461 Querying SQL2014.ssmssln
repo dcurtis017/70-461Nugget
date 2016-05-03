@@ -13,6 +13,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07-SELECT", "07-SELECT\07-S
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08-Subqueries", "08-Subqueries\08-Subqueries.ssmssqlproj", "{662EA17E-384D-4D5A-8AA9-4BA9566E0FBF}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09-DataTypes", "09-DataTypes\09-DataTypes.ssmssqlproj", "{5B63399F-2858-44DA-8F41-2FFB7A21553D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -25,6 +27,7 @@ Global
 		{A82AC013-55DF-412A-8099-AE3320B29881}.Default|Default.ActiveCfg = Default
 		{01A9C39A-A9C3-4448-9F68-8FCDF6E93823}.Default|Default.ActiveCfg = Default
 		{662EA17E-384D-4D5A-8AA9-4BA9566E0FBF}.Default|Default.ActiveCfg = Default
+		{5B63399F-2858-44DA-8F41-2FFB7A21553D}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

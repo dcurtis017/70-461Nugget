@@ -1,9 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="09-DataTypes">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="ELYSIUM\SQL2012XP:elysium\curtis">
+          <Created>2016-05-02T14:38:07.8323565-04:00</Created>
+          <Type>SQL</Type>
+          <Server>ELYSIUM\SQL2012XP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>NuggetDemoDB</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="All-DataTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ELYSIUM\SQL2012XP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ELYSIUM\SQL2012XP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>All-DataTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="notes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ELYSIUM\SQL2012XP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ELYSIUM\SQL2012XP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>notes.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="pic.jpg">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pic.jpg</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
